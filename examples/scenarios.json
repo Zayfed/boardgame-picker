@@ -1,0 +1,104 @@
+{
+  "checked_at": "2026-11-25T07:01:58.842669+00:00",
+  "scenarios": [
+    {
+      "name": "Компания из четырёх",
+      "input": {
+        "players": 4,
+        "minutes": 60,
+        "age": 18
+      },
+      "count": 61,
+      "first_three": [
+        {
+          "id": "magic-maze",
+          "name": "Магомаркет",
+          "source_url": "https://tesera.ru/game/magic-maze/"
+        },
+        {
+          "id": "Love-Letter-Premium",
+          "name": "Love Letter Premium",
+          "source_url": "https://tesera.ru/game/Love-Letter-Premium/"
+        },
+        {
+          "id": "Doomtown-Reloaded",
+          "name": "Doomtown: Reloaded",
+          "source_url": "https://tesera.ru/game/Doomtown-Reloaded/"
+        }
+      ]
+    },
+    {
+      "name": "Быстрая игра вдвоём",
+      "input": {
+        "players": 2,
+        "minutes": 45,
+        "age": 18
+      },
+      "count": 39,
+      "first_three": [
+        {
+          "id": "klask",
+          "name": "КЛАСК",
+          "source_url": "https://tesera.ru/game/klask/"
+        },
+        {
+          "id": "magic-maze",
+          "name": "Магомаркет",
+          "source_url": "https://tesera.ru/game/magic-maze/"
+        },
+        {
+          "id": "Love-Letter-Premium",
+          "name": "Love Letter Premium",
+          "source_url": "https://tesera.ru/game/Love-Letter-Premium/"
+        }
+      ]
+    },
+    {
+      "name": "Компания из восьми",
+      "input": {
+        "players": 8,
+        "minutes": 180,
+        "age": 18
+      },
+      "count": 35,
+      "first_three": [
+        {
+          "id": "TwoRoomsAndABoom",
+          "name": "Two Rooms and a Boom",
+          "source_url": "https://tesera.ru/game/TwoRoomsAndABoom/"
+        },
+        {
+          "id": "magic-maze",
+          "name": "Магомаркет",
+          "source_url": "https://tesera.ru/game/magic-maze/"
+        },
+        {
+          "id": "Love-Letter-Premium",
+          "name": "Love Letter Premium",
+          "source_url": "https://tesera.ru/game/Love-Letter-Premium/"
+        }
+      ]
+    },
+    {
+      "name": "Пустая выдача",
+      "input": {
+        "players": 20,
+        "minutes": 5,
+        "age": 1
+      },
+      "count": 0,
+      "first_three": []
+    },
+    {
+      "name": "Некорректный ввод",
+      "input": {
+        "players": 0
+      },
+      "message": "Число игроков: от 1 до 20."
+    },
+    {
+      "name": "Нет данных для ИИ",
+      "message": "Нет подходящих игр; запрос к модели не выполнялся."
+    }
+  ]
+}

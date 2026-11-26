@@ -1,0 +1,2463 @@
+{
+  "source": "https://tesera.ru/",
+  "selection": "300 карточек: сохранены исходные 50 и добавлены 250 самостоятельных игр. Новые URL отобраны из 20 страниц рейтинга без прежних ограничений времени и возраста, с отдельным приоритетом больших компаний, разных тем, детских, кооперативных и долгих игр. Новые записи с одинаковым BGG ID или одинаковым заголовком не повторяются. API служит только поиску URL; рабочие поля извлекаются из HTML через BeautifulSoup. Несколько тематических карточек проверены вручную независимо от ошибочных маркеров API. При проверке запроса про птиц для шестерых повторное издание Каркассона 2022 заменено самостоятельной игрой Tweeeet; исходные 50 карточек сохранены.",
+  "mode": "saved_html",
+  "requested": 300,
+  "collected": 300,
+  "duplicates": 0,
+  "rejected": 0,
+  "downloaded": 0,
+  "reused": 300,
+  "checked": [
+    "required fields",
+    "types",
+    "ranges",
+    "duplicates",
+    "missing values",
+    "URLs"
+  ],
+  "issues": [
+    {
+      "url": "https://tesera.ru/game/Too-Many-Bones/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/revive/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/istanbul-big-box/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Malifaux/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/welcome-to-the-moon/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/harmonies/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/blood-rage/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/obsession/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/hansa-teutonica-big-box/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/endeavor-deep-sea/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/3clank-legacy-acquisitions-incorporated/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/the-voyages-of-marco-polo/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/doroga-yarosti-vendetta-khrom-i-molnii/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/stone-age-10th-anniversary/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/stone-age-10th-anniversary/",
+      "field": "description",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/unlock-game-adventures/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/azul-queens-garden/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/yellow-yangtze/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Android-Netrunner/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Android/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/the-resistance/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/cyber-odyssey/",
+      "field": "duration_max",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/1862-railway-mania-in-the-eastern-counties/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/decrypto/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/siderial-confluence/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/mythos-tales/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/legend-of-the-five-rings/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/camel-up-20/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Welcome-To/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Roborally/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Love-Letter-Premium/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/stationfall/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Cartographers-A-Roll-Player-Tale/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/feed-the-kraken/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/PhantomInk/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/goblins-vs-gnomes/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/pisma-prizraka/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/TwoRoomsAndABoom/",
+      "field": "description",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/paper-dungeons/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/fallout-wasteland-warfare/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/magic-maze/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/awkward-guests/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Zombicide-Season-3-Rue-Morgue/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/tannhauser/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/colt-express-big-box/",
+      "field": "duration_max",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/magic-the-gathering/",
+      "field": "duration_max",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/magic-the-gathering/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/the-resistance-avalon/",
+      "field": "duration_max",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/codenames/",
+      "field": "duration_max",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/panic-on-wall-street/",
+      "field": "duration_max",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/panic-on-wall-street/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/korona-embera/",
+      "field": "duration_max",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/korona-embera/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/avalon-big-box/",
+      "field": "duration_max",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/avalon-big-box/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/zakhvat-kolony/",
+      "field": "duration_min",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/zakhvat-kolony/",
+      "field": "duration_max",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/twilight-imperium-fourth-edition/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/twilight-imperium-third-edition/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/underwater-cities/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/High-Frontier-4-All/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/beyond-the-sun/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/dune/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/shackleton-base-a-journey-to-the-moon/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/circadians-chaos-order/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/terraforming-mars/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/john-company-second-edition/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Agricola-revised-edition/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/weather-machine/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/doggerland/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/forest-shuffle/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Mansions-of-Madness/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/mortum-ubeghishe/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/quietbell/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Tragedy-Looper/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/merchants-and-marauders/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/pagan-fate-of-roanoke/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/project-elite-2020/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/TheInitiative/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/the-name-of-the-rose/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/warhammer-underworlds-direchasm/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/detective-city-of-angels/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/detective-city-of-angels/",
+      "field": "description",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Doomtown-Reloaded/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/lovecraft-letter/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Mansions-of-Madness-Second-Edition/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/podlodka-nastolnaya-igra/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/paxemancipation/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Return-to-Dark-Tower/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/aeons-end/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/azul-master-chocolatier/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/klask/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/azul-mini/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/oltree/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/galaxy-trucker-anniversary-edition/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/luxor/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Skyrise/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/imperial-settlers/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/great-western-trail-new-zealand/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/age-of-innovation/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/lisboa/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Terra-Mystica/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/great-western-trail-second-edition/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/clans-caledonia/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/great-western-trail-argentina/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/sid-meiers-civilization-ffg/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Mombasa/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Rising-Sun/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Trismegistus-The-Ultimate-Formula/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Fief-France-1429/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/triumph-and-tragedy/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/carnegie/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Imperium-Legends/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Imperium-Legends/",
+      "field": "description",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/food-chain-magnate/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/gallerist/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/vinhos-deluxe-edition/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/sweet-lands/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/maria/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/LaFamigliaTheGreatMafiaWar/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/sekigahara-the-unification-of-japan/",
+      "field": "players_min",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/sekigahara-the-unification-of-japan/",
+      "field": "duration_min",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/Through-the-Ages/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/bonfire/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/teotihuacan-city-of-gods/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/cofbsh/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/hive-carbon/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    },
+    {
+      "url": "https://tesera.ru/game/deadreckoning/",
+      "field": "tags",
+      "action": "Сохранено без выдуманного значения; учитывается фильтрами."
+    }
+  ],
+  "provenance": [
+    {
+      "url": "https://tesera.ru/game/Inis/",
+      "html_file": "html/Inis.html",
+      "sha256": "1d341770e65e6fef3ac574388407afd4052017f92d677fe4135890e31150a353",
+      "collected_at": "2026-11-24T07:24:34.138977+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/5tribes/",
+      "html_file": "html/5tribes.html",
+      "sha256": "c74fac389e58b208dc7a5064f6546cb11082a01bb59719090b301b5f82d36d84",
+      "collected_at": "2026-11-24T07:24:37.668010+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Pandemic-Legacy/",
+      "html_file": "html/Pandemic-Legacy.html",
+      "sha256": "bd641fb8e553d89b5135833e92169ddb330b84a1338098b335332e061e0e497c",
+      "collected_at": "2026-11-24T07:24:41.222727+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/7-wonders-duel/",
+      "html_file": "html/7-wonders-duel.html",
+      "sha256": "2957fb9099768154af714d246b3069ff6744d9f582dc1f064856337066826aa6",
+      "collected_at": "2026-11-24T07:24:45.306484+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Too-Many-Bones/",
+      "html_file": "html/Too-Many-Bones.html",
+      "sha256": "1d8b7030349521fcc610b504b403627f84a486038efa771f23721c88f23c5316",
+      "collected_at": "2026-11-24T07:24:48.387814+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/root/",
+      "html_file": "html/root.html",
+      "sha256": "44d385ae3f13f2daf42e577d2c33fe7ae4a1d8f92d41123b9bd358dc05e92f55",
+      "collected_at": "2026-11-24T07:24:52.411101+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/revive/",
+      "html_file": "html/revive.html",
+      "sha256": "46c5a1f14fe657a3c3e97096614c1e74cbfe3eacc4fba9efd6ff725b9a093030",
+      "collected_at": "2026-11-24T07:24:55.386779+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/istanbul-big-box/",
+      "html_file": "html/istanbul-big-box.html",
+      "sha256": "be00f8c01cf5d8b84179297d407b9c8109d4cd8d6bcc707e61b7b4046bd6f980",
+      "collected_at": "2026-11-24T07:24:58.141371+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/unmatched-battle-of-legends-volume-two/",
+      "html_file": "html/unmatched-battle-of-legends-volume-two.html",
+      "sha256": "821dcbbe66ed02c362fb1f9fe5cfdf0c6e814eb053cbe371b06127f1c18bcdfb",
+      "collected_at": "2026-11-24T07:25:01.062688+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/7-wonders/",
+      "html_file": "html/7-wonders.html",
+      "sha256": "e5b09e236c6044e14b3d13708ce515462820e80f826a23891fc8eb48b48dba22",
+      "collected_at": "2026-11-24T07:25:05.516204+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/troyes/",
+      "html_file": "html/troyes.html",
+      "sha256": "157f6443c22d31252c8df032325b7fa3812752d20ec81014fec9ff9264ed11b8",
+      "collected_at": "2026-11-24T07:25:08.758230+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Malifaux/",
+      "html_file": "html/Malifaux.html",
+      "sha256": "83b2bed608aa6b8c7fad7febbdf0bcff439beab19ea6cdf9c69d54c7431b322b",
+      "collected_at": "2026-11-24T07:25:11.465739+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/wonderlands-war/",
+      "html_file": "html/wonderlands-war.html",
+      "sha256": "74f722cd53ba0482d2e7c56bb2fa97e8c402de61db28f9c0f1e702d9e44f9ec6",
+      "collected_at": "2026-11-24T07:25:14.418911+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/welcome-to-the-moon/",
+      "html_file": "html/welcome-to-the-moon.html",
+      "sha256": "176056ea6ded7cb77cdcafc67880b1f00dadd75ba868338c43ccfbdf87291185",
+      "collected_at": "2026-11-24T07:25:17.192244+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/7-wonders-second-edition/",
+      "html_file": "html/7-wonders-second-edition.html",
+      "sha256": "1141d18ca7c63d13edccd4525fc54d8399a16567a1a633ea7930373bfbcc80ab",
+      "collected_at": "2026-11-24T07:25:19.963529+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/UnmatchedCF/",
+      "html_file": "html/UnmatchedCF.html",
+      "sha256": "779b3d1e3f32137a893bdd2289173727600018176aa8211ef05769e7b7acec46",
+      "collected_at": "2026-11-24T07:25:23.322197+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/unconscious-mind/",
+      "html_file": "html/unconscious-mind.html",
+      "sha256": "8061e749028b272aa720a78effe84addd79d2d4687ab50d58a229ddf5b4db4c1",
+      "collected_at": "2026-11-24T07:25:26.148424+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/harmonies/",
+      "html_file": "html/harmonies.html",
+      "sha256": "43e18fce53cd171b38305807cbe3c0405700bfef673bbbc644e9ead15c8abe8c",
+      "collected_at": "2026-11-24T07:25:28.902033+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/puerto-rico/",
+      "html_file": "html/puerto-rico.html",
+      "sha256": "98284e3fabb388f60c83e1ce06706619641144c25bb9ba8797430b5e277a511a",
+      "collected_at": "2026-11-24T07:25:32.159602+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/battlelore/",
+      "html_file": "html/battlelore.html",
+      "sha256": "ef4d76f02fef459a6f3c96e930eaf04a914148ebe92d977ad615bd952b282c3f",
+      "collected_at": "2026-11-24T07:25:35.294450+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/robinson-crusoe-adventures-cursed-island/",
+      "html_file": "html/robinson-crusoe-adventures-cursed-island.html",
+      "sha256": "253778f654db43814ed17366bbd0c91179988a98a77ee6314872ca048130b820",
+      "collected_at": "2026-11-24T07:25:39.761468+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/blood-rage/",
+      "html_file": "html/blood-rage.html",
+      "sha256": "db0cdf6659db5ad2684dd8a5f2d7d59442fdd3ffa6ccb0178691bc993cad7cb2",
+      "collected_at": "2026-11-24T07:25:43.571171+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/race-for-the-galaxy/",
+      "html_file": "html/race-for-the-galaxy.html",
+      "sha256": "d1deef46924b03febab07e140f14d2bfb3f87b96cf74c93fb6e13511e6612e18",
+      "collected_at": "2026-11-24T07:25:47.031306+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/cyclades/",
+      "html_file": "html/cyclades.html",
+      "sha256": "74095886df6686926ee89398f7117c907e396c7195c2825298f49e0269381110",
+      "collected_at": "2026-11-24T07:25:50.481641+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/cyclades-legendary-edition/",
+      "html_file": "html/cyclades-legendary-edition.html",
+      "sha256": "2fcf57ba651cc9ec0631485c5980d79b47bb716ba99252f7598b9ffc66d7b9d9",
+      "collected_at": "2026-11-24T07:25:53.287944+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/seasons/",
+      "html_file": "html/seasons.html",
+      "sha256": "9554a1f6be15733cea16f33da3a013c7327ca6ce1f5e37513dbd6899f98a5eaa",
+      "collected_at": "2026-11-24T07:25:56.604865+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/carcassonne-royalgift-new/",
+      "html_file": "html/carcassonne-royalgift-new.html",
+      "sha256": "8d16e0f9832a302b60ef2f9cb91f9a4fab099b7882daefe590ba438ec0122791",
+      "collected_at": "2026-11-24T07:25:59.357411+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/claustrophobia/",
+      "html_file": "html/claustrophobia.html",
+      "sha256": "e11e1b0825e5fab28a91c35ee03df7822094436126ac0bb6043b70f271a84da0",
+      "collected_at": "2026-11-24T07:26:02.923477+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/ankh-morpork/",
+      "html_file": "html/ankh-morpork.html",
+      "sha256": "28ea5ee31008347cf25a9b391331dbcc36367a977296ba34a870acba4cfa1876",
+      "collected_at": "2026-11-24T07:26:05.368965+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/the-white-castle/",
+      "html_file": "html/the-white-castle.html",
+      "sha256": "b6440067a37178e980be433c608454c94d152286a5f8759d0772de87304dc842",
+      "collected_at": "2026-11-24T07:26:08.385585+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/obsession/",
+      "html_file": "html/obsession.html",
+      "sha256": "054e827876cd1d331f847fd01ab8f5937dfd765c30ca3da519264304440ce222",
+      "collected_at": "2026-11-24T07:26:11.380305+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/carcassonne-big-box-6/",
+      "html_file": "html/carcassonne-big-box-6.html",
+      "sha256": "8c5367e90f3c50eb25557eee16778aeb596e1f8a1558a5751ed5aaad010e0042",
+      "collected_at": "2026-11-24T07:26:14.200017+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/azul/",
+      "html_file": "html/azul.html",
+      "sha256": "ff4716044782122e98bd614afa3f5ba26021f3809393dff4db589bbf6009d3ef",
+      "collected_at": "2026-11-24T07:26:16.121354+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Unmatched-Robin-Hood-vs-Bigfoot/",
+      "html_file": "html/Unmatched-Robin-Hood-vs-Bigfoot.html",
+      "sha256": "1c02e96a4a888cefcda48de1af5f39aa114fbfabd70b7d13a17c62aaf48658d2",
+      "collected_at": "2026-11-24T07:26:19.109659+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Sleeping-Gods/",
+      "html_file": "html/Sleeping-Gods.html",
+      "sha256": "8d23f151a30ebb5c82eb3aaf17085ea2e877579713b7fc28f2b3101ed87eff16",
+      "collected_at": "2026-11-24T07:26:21.116913+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/hansa-teutonica-big-box/",
+      "html_file": "html/hansa-teutonica-big-box.html",
+      "sha256": "a11a09d3364909b6502ca1158113cac00408ef5c3cc66ddd4c93094b4bdb3bf6",
+      "collected_at": "2026-11-24T07:26:24.146514+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Unmatched-Slings-and-Arrows/",
+      "html_file": "html/Unmatched-Slings-and-Arrows.html",
+      "sha256": "244fa03d4dc96aeb6f2ee79616ae252b8b60fb957ed3da97afcefc2cc786d269",
+      "collected_at": "2026-11-24T07:26:26.906393+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/carcassonne/",
+      "html_file": "html/carcassonne.html",
+      "sha256": "6bcbc9d9b788be594e9d51acbf571c0c78b7edecb85f77241abc9a415ebcb74a",
+      "collected_at": "2026-11-24T07:30:14.773186+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/endeavor-deep-sea/",
+      "html_file": "html/endeavor-deep-sea.html",
+      "sha256": "7449bbc82f018be8420e5a9ac75c4722334e26329b7798b32081114b0f28ad68",
+      "collected_at": "2026-11-24T07:26:32.226111+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/3clank-legacy-acquisitions-incorporated/",
+      "html_file": "html/3clank-legacy-acquisitions-incorporated.html",
+      "sha256": "cd1d5baecb87b9562bfb5d9d02f0a328424184c73a25aafb8760f8486a70af65",
+      "collected_at": "2026-11-24T07:26:35.254588+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/wingspan/",
+      "html_file": "html/wingspan.html",
+      "sha256": "ef1f90d2c6920199d73bda9dddf5f5cbf6390b2ed387753af619428d17da30f7",
+      "collected_at": "2026-11-24T07:26:38.639597+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/the-voyages-of-marco-polo/",
+      "html_file": "html/the-voyages-of-marco-polo.html",
+      "sha256": "1a94a67808659419bf2704ff5735e55435a767f8279fb297cf5900a22d1530c9",
+      "collected_at": "2026-11-24T07:26:41.812673+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/march-of-the-ants-second-edition/",
+      "html_file": "html/march-of-the-ants-second-edition.html",
+      "sha256": "a61f089becc6de471eee163689ad5b4ea2eae24dc6a4b52ba036e34f198e430e",
+      "collected_at": "2026-11-24T07:26:44.600750+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/doroga-yarosti-vendetta-khrom-i-molnii/",
+      "html_file": "html/doroga-yarosti-vendetta-khrom-i-molnii.html",
+      "sha256": "5e0a474ca2a4d38441cb7b234a43c23d534f99c8a29c7be64231bacef435d726",
+      "collected_at": "2026-11-24T07:26:47.166373+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/stone-age-10th-anniversary/",
+      "html_file": "html/stone-age-10th-anniversary.html",
+      "sha256": "c1b9e6bae8666a31cc43169b5771537555b33471216f8e735cc7a0b4d21be48b",
+      "collected_at": "2026-11-24T07:26:50.074510+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/unlock-game-adventures/",
+      "html_file": "html/unlock-game-adventures.html",
+      "sha256": "b127c492036024c260ce516b79f38f5052ea717487fee8c72ef52724e58c40ff",
+      "collected_at": "2026-11-24T07:26:52.413170+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Lords-of-Waterdeep/",
+      "html_file": "html/Lords-of-Waterdeep.html",
+      "sha256": "110ead324c742dec87ab9799729d56dbddac34b91d4698b20b0aff1689e6bf64",
+      "collected_at": "2026-11-24T07:26:55.530861+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/azul-queens-garden/",
+      "html_file": "html/azul-queens-garden.html",
+      "sha256": "76c4bba41f8b36e9ade9169f196be6ea3102b41a379945461e9a1a901d02b17a",
+      "collected_at": "2026-11-24T07:26:58.268380+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/yellow-yangtze/",
+      "html_file": "html/yellow-yangtze.html",
+      "sha256": "c65c40fbfb2ae22e5b6e1cae9fb90aa73311db7d06a43dcf1d5ee10a34abd03a",
+      "collected_at": "2026-11-24T07:27:01.186271+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/carcassonne-new-edition/",
+      "html_file": "html/carcassonne-new-edition.html",
+      "sha256": "8a87eea116c7add606acd91d154a7d5abbda7a17203d169548b4deae63f536e5",
+      "collected_at": "2026-11-24T07:27:04.700912+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Android-Netrunner/",
+      "html_file": "html/Android-Netrunner.html",
+      "sha256": "a26c9204ab9841b65781455564fba7e07cacf9dc64ef4ad80ef6a98628cc819f",
+      "collected_at": "2026-11-25T04:39:06.490709+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Android/",
+      "html_file": "html/Android.html",
+      "sha256": "2e367f9a81548691959531eceeccfa966bd788f5c0fe9f6efc61877f2c9d1515",
+      "collected_at": "2026-11-25T04:39:09.250018+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/human-punishment/",
+      "html_file": "html/human-punishment.html",
+      "sha256": "f38921b24313c4c0c417edbcaf2be13177cd80a3b05b08eb05a714bd2e8d9137",
+      "collected_at": "2026-11-25T04:39:12.015328+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/the-resistance/",
+      "html_file": "html/the-resistance.html",
+      "sha256": "b6b16e6dca14099c5d3df06b2dc83ee41b673f3cfdbff47076739f6722b7b0de",
+      "collected_at": "2026-11-25T04:39:14.904393+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/perch/",
+      "html_file": "html/perch.html",
+      "sha256": "b1065d5b86b856af297535088a6db90eb058e1efc7b0c5407a2504fc5ff5c478",
+      "collected_at": "2026-11-25T04:39:17.469650+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/cyber-odyssey/",
+      "html_file": "html/cyber-odyssey.html",
+      "sha256": "745acc6a5fb390671af7fcfd9e56b36567ff57e12d0fedd1736edb6b0de3498f",
+      "collected_at": "2026-11-25T04:43:47.660610+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/runners/",
+      "html_file": "html/runners.html",
+      "sha256": "b7b8de2d9f29afdd6c7104088e824b0e6b4c22c5035b32a5feca9cee0a7ed3a0",
+      "collected_at": "2026-11-25T04:43:50.564848+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/cyberpunk-2077-the-board-game/",
+      "html_file": "html/cyberpunk-2077-the-board-game.html",
+      "sha256": "dd61046415ca7496d90229ecd8b1920e16fb3d004073214e40a2ae56de5670d8",
+      "collected_at": "2026-11-25T04:43:53.393058+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/1862-railway-mania-in-the-eastern-counties/",
+      "html_file": "html/1862-railway-mania-in-the-eastern-counties.html",
+      "sha256": "ca07de49c725ab53965df8cc9b930cf67a15f9c794a9ad6f82076cbb497112e9",
+      "collected_at": "2026-11-25T04:40:56.223836+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/sherlock-holmes-consulting-detective-the-thames-murders/",
+      "html_file": "html/sherlock-holmes-consulting-detective-the-thames-murders.html",
+      "sha256": "e5ecb6dfd8806be9c0202f5aebbb94790b5c5907e361c5703b8ef04619c72395",
+      "collected_at": "2026-11-25T04:40:59.138149+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Eldritch-Horror/",
+      "html_file": "html/Eldritch-Horror.html",
+      "sha256": "1bf082f67d2cdbca5c8118e295732d1f1813a84b7bb78cb1b77c2ef6215118d1",
+      "collected_at": "2026-11-25T04:41:03.659856+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/arkham-horror/",
+      "html_file": "html/arkham-horror.html",
+      "sha256": "ba3de31b64472925d431ab65aaa5a4ca9eaec3b128216adb7a9a13ebd55ec21e",
+      "collected_at": "2026-11-25T04:41:07.002839+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/decrypto/",
+      "html_file": "html/decrypto.html",
+      "sha256": "40d77b79db1d8cd2358a7ecf3084dbd197ec494986391c85b8152cb8a29979fd",
+      "collected_at": "2026-11-25T04:41:10.195604+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Citadels-2016/",
+      "html_file": "html/Citadels-2016.html",
+      "sha256": "7a87a3b2bd51c86915b31f695318c63f3b85b04b7d79b89fee1df514c1573780",
+      "collected_at": "2026-11-25T04:41:12.946984+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/siderial-confluence/",
+      "html_file": "html/siderial-confluence.html",
+      "sha256": "d593fbe956ca3f759b119fd4344c17acb1926c926f1e5830114a996157731be0",
+      "collected_at": "2026-11-25T04:41:15.677272+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/mythos-tales/",
+      "html_file": "html/mythos-tales.html",
+      "sha256": "4601002cf72234fe0d3503418cbec2c6c512c49c55e362f7d480eed3cc177630",
+      "collected_at": "2026-11-25T04:41:21.332198+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/captain-sonar/",
+      "html_file": "html/captain-sonar.html",
+      "sha256": "7ee52928b3234ee825fe76f223e3eaae3eabf259d115a77ed9b232f362e7f819",
+      "collected_at": "2026-11-25T04:41:24.205542+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/legend-of-the-five-rings/",
+      "html_file": "html/legend-of-the-five-rings.html",
+      "sha256": "9cda5d19c2190bbd35a93f533367a69925c7eafe6e2c2bc03216f043575dd9f0",
+      "collected_at": "2026-11-25T04:41:26.818059+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/battletech/",
+      "html_file": "html/battletech.html",
+      "sha256": "0cd122abd3f54bf6ceed79f81a1cb1c1cc5f4e98b8d8ce2ff8c4c025cea8b051",
+      "collected_at": "2026-11-25T04:41:29.419076+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/camel-up-20/",
+      "html_file": "html/camel-up-20.html",
+      "sha256": "9014aca18a79f2b2340867cf19bb476543c7a504845dca9958f53360d443a065",
+      "collected_at": "2026-11-25T04:41:32.195451+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Welcome-To/",
+      "html_file": "html/Welcome-To.html",
+      "sha256": "97e7e588675261e3ff0133ecc19cc4c1fc51996853c51a54b1a27cab4818672a",
+      "collected_at": "2026-11-25T04:41:34.890411+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/blood-on-the-clocktower/",
+      "html_file": "html/blood-on-the-clocktower.html",
+      "sha256": "5a9c703861d6dc0f60b93f7c9acdedda828efeb7042ec87a556170b19a848802",
+      "collected_at": "2026-11-25T04:41:37.561978+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Roborally/",
+      "html_file": "html/Roborally.html",
+      "sha256": "f93d2e0f76cc41de1667e399cac40135a9f315565e59db184e76b096ca21aacc",
+      "collected_at": "2026-11-25T04:41:40.371870+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Love-Letter-Premium/",
+      "html_file": "html/Love-Letter-Premium.html",
+      "sha256": "0d9cbe91b8ebf04813f59c12ebe558de4b5caccde81fce5bf67e10e4ff0018f5",
+      "collected_at": "2026-11-25T04:41:43.169536+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/steampunk-rally-fusion/",
+      "html_file": "html/steampunk-rally-fusion.html",
+      "sha256": "5a1c587641dea9f9325afe73978afcfe9b29ab818436d2708183edfe03b26d28",
+      "collected_at": "2026-11-25T04:41:45.988493+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/stationfall/",
+      "html_file": "html/stationfall.html",
+      "sha256": "b7d6a4af427ff71da985e2cd32b39f26a87e7e8186480dfcc522b363569a7b67",
+      "collected_at": "2026-11-25T04:41:51.118829+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Cartographers-A-Roll-Player-Tale/",
+      "html_file": "html/Cartographers-A-Roll-Player-Tale.html",
+      "sha256": "87aecb489deadc176e05978bfb87e880088f0835c656d16ba5c7c7b16bd41ede",
+      "collected_at": "2026-11-25T04:41:54.028692+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/feed-the-kraken/",
+      "html_file": "html/feed-the-kraken.html",
+      "sha256": "f772fd6586c0ca24beecd1889d02a6e86f6910930bc74b6960d9b7118a752eea",
+      "collected_at": "2026-11-25T04:41:56.713674+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Fortune-and-Glory-The-Cliffhanger-Game/",
+      "html_file": "html/Fortune-and-Glory-The-Cliffhanger-Game.html",
+      "sha256": "27b04c42530b4d08511e19729bd2d86586691f75a09c2816ce4dfcf0116ea9f9",
+      "collected_at": "2026-11-25T04:41:59.399703+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/PhantomInk/",
+      "html_file": "html/PhantomInk.html",
+      "sha256": "2765b54a34127e9d19227fa9a1c289d4a34fd143b63cee59c8d72a2feee96043",
+      "collected_at": "2026-11-25T04:42:02.064390+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/babylon-5-collectible-card-game/",
+      "html_file": "html/babylon-5-collectible-card-game.html",
+      "sha256": "61e35c8b57c9637cd570288fed1dc4dafa5c852582fe65c9460ce220a5b241a1",
+      "collected_at": "2026-11-25T04:42:04.577172+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/long-shot-the-dice-game/",
+      "html_file": "html/long-shot-the-dice-game.html",
+      "sha256": "4798c30622c4935a465a24c18a05966dcb1539f374d92dd8360ccefb12ac60d8",
+      "collected_at": "2026-11-25T04:42:07.343273+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/bezmolvnyi/",
+      "html_file": "html/bezmolvnyi.html",
+      "sha256": "15e7b4c5648790d065f11c4f194b40424627dc4cfd8fa9945251593c77c29af7",
+      "collected_at": "2026-11-25T04:42:10.003770+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/goblins-vs-gnomes/",
+      "html_file": "html/goblins-vs-gnomes.html",
+      "sha256": "40ffebdddc1284cb35decdebe6e953be1bd604654fa206bd0c60bfe06487f73d",
+      "collected_at": "2026-11-25T04:42:12.782398+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/pisma-prizraka/",
+      "html_file": "html/pisma-prizraka.html",
+      "sha256": "33fc1326606e7e8c0e1d1bdc62d1cdecc4d2d02886c4597ea1b2085f559f195f",
+      "collected_at": "2026-11-25T04:42:15.464881+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/secret-hitler/",
+      "html_file": "html/secret-hitler.html",
+      "sha256": "4473ab154f03d28074e5b379349c2820a15b7e77d2bcd2b497a8411be3eaac81",
+      "collected_at": "2026-11-25T04:42:18.138248+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/TwoRoomsAndABoom/",
+      "html_file": "html/TwoRoomsAndABoom.html",
+      "sha256": "7199bbdcde748c2073e578dee90962ab79c14d388ee53092d5ae7f8f4fb0dae5",
+      "collected_at": "2026-11-25T04:42:20.769129+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/paper-dungeons/",
+      "html_file": "html/paper-dungeons.html",
+      "sha256": "d0e3b065ec28d71dcdfcc8ab1cc8ad349c09427094b6779d72391de629130975",
+      "collected_at": "2026-11-25T04:42:23.483027+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/fallout-wasteland-warfare/",
+      "html_file": "html/fallout-wasteland-warfare.html",
+      "sha256": "fb8e4f603c999f5f74c4ed16747eb147eecb008e7c1e7de4da5c282adc8098df",
+      "collected_at": "2026-11-25T04:42:26.131370+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Trapwords/",
+      "html_file": "html/Trapwords.html",
+      "sha256": "f781ef046d6de1bb3403686ab304eac2e96b091bbb7815378bd1f0aa64599b06",
+      "collected_at": "2026-11-25T04:42:28.813465+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/magic-maze/",
+      "html_file": "html/magic-maze.html",
+      "sha256": "88cd09a3761dc463ffbbb6378af31150f8e4a1b9235ced6c407d4b7e91940bad",
+      "collected_at": "2026-11-25T04:42:31.749995+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/awkward-guests/",
+      "html_file": "html/awkward-guests.html",
+      "sha256": "95310a4692eebdf87e57fd211b350338f928d786de8074c4fcea91f37b32aabf",
+      "collected_at": "2026-11-25T04:42:34.410444+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Zombicide-Season-3-Rue-Morgue/",
+      "html_file": "html/Zombicide-Season-3-Rue-Morgue.html",
+      "sha256": "e0f35091fe0d509f1cabca62c4f4d9c27b69a62a5d5c2cb056913ad5d75d043f",
+      "collected_at": "2026-11-25T04:42:37.252613+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/tannhauser/",
+      "html_file": "html/tannhauser.html",
+      "sha256": "baaf9bcf6126e397035d4b99d2c0b767d5f1a4aedf648065fe4c51b3c33c5da9",
+      "collected_at": "2026-11-25T04:42:39.886885+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/steampunk-rally/",
+      "html_file": "html/steampunk-rally.html",
+      "sha256": "333a6a05cef00767b43ba2fe6422117b1fd82c80cf6644a77612b93ab009d76b",
+      "collected_at": "2026-11-25T04:42:42.567141+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/colt-express-big-box/",
+      "html_file": "html/colt-express-big-box.html",
+      "sha256": "0e8aa91a1918781f79f7e6557074591b1e3f76704c4f760a4ec3612af2380998",
+      "collected_at": "2026-11-25T04:42:45.243171+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/magic-the-gathering/",
+      "html_file": "html/magic-the-gathering.html",
+      "sha256": "b7bf1c19a73d5c418cd807f77a5be397383b76c20190658a7b25f116248b4c14",
+      "collected_at": "2026-11-25T04:42:48.134478+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/the-resistance-avalon/",
+      "html_file": "html/the-resistance-avalon.html",
+      "sha256": "8c3426efaaddd2ec40e7ecc903d6be2aa1d69134fa66223d45e52141385af853",
+      "collected_at": "2026-11-25T04:42:50.883863+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/codenames/",
+      "html_file": "html/codenames.html",
+      "sha256": "78cda2db94a2b34c3e2e66d9ccd5b9bc1ceaac7669b9b15b9bdbe362715e689e",
+      "collected_at": "2026-11-25T04:42:54.385597+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/panic-on-wall-street/",
+      "html_file": "html/panic-on-wall-street.html",
+      "sha256": "afe511dc9ca3b89132258c37d8b27111c42de9e42af3e9bbb533024de8cb7c29",
+      "collected_at": "2026-11-25T04:42:57.109666+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/korona-embera/",
+      "html_file": "html/korona-embera.html",
+      "sha256": "07bbe4061915b02fb0b6e8a733cd472fd7c6a3907c0bed214aa5ed672ddde600",
+      "collected_at": "2026-11-25T04:42:59.658580+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/avalon-big-box/",
+      "html_file": "html/avalon-big-box.html",
+      "sha256": "30f081832b77f51ae9a25a10cb908a465803d48998d88f4474ac821d532e6e59",
+      "collected_at": "2026-11-25T04:43:02.360646+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/zakhvat-kolony/",
+      "html_file": "html/zakhvat-kolony.html",
+      "sha256": "2576da219dd61f29675e8834315924da69c736e7d6aa0a77d7c437513091c5ac",
+      "collected_at": "2026-11-25T04:52:45.614222+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/twilight-imperium-fourth-edition/",
+      "html_file": "html/twilight-imperium-fourth-edition.html",
+      "sha256": "1e07fd82c50a771e05172d74e0f79ec2adf9d958da00d24b742f4a52297359f3",
+      "collected_at": "2026-11-25T04:43:05.764904+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/gaia-project/",
+      "html_file": "html/gaia-project.html",
+      "sha256": "0da44504ab478f4d4339789f6193ad7c6f4d1b01cd154368bcff99c00c282a08",
+      "collected_at": "2026-11-25T04:43:08.803302+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/twilight-struggle/",
+      "html_file": "html/twilight-struggle.html",
+      "sha256": "26817e3d5485a3953c53ac7dd6d8d7989a366d67fe07f4e8c3880c812be0f05b",
+      "collected_at": "2026-11-25T04:43:12.158976+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/seti-search-extraterrestrial-intelligence/",
+      "html_file": "html/seti-search-extraterrestrial-intelligence.html",
+      "sha256": "e221db213d5f598c3399cf1acb836ab3166b2c76ad8ac4e57e26927cbffcaa09",
+      "collected_at": "2026-11-25T04:43:14.801109+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/nemesis/",
+      "html_file": "html/nemesis.html",
+      "sha256": "61ad1af56d74d6b765621f70ca56d4d4fb832fb3d7477a2b4fa2c6f22ff67f76",
+      "collected_at": "2026-11-25T04:43:18.298551+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/eclipse-second-dawn-for-the-galaxy/",
+      "html_file": "html/eclipse-second-dawn-for-the-galaxy.html",
+      "sha256": "1cd6833f8bbd0812a8314ed8db81b056164ad5077628127053c757be7b5e8497",
+      "collected_at": "2026-11-25T04:43:21.239910+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/twilight-imperium-third-edition/",
+      "html_file": "html/twilight-imperium-third-edition.html",
+      "sha256": "9d0bace95c5db9107dc4f9d2070c77971a864e4f2d713bdb1382730c38d0331d",
+      "collected_at": "2026-11-25T04:43:24.156983+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/battlestar-galactica/",
+      "html_file": "html/battlestar-galactica.html",
+      "sha256": "042d97af9520c91e72bf71d98e9b90087faab7a807356a0cd06204e7464c6072",
+      "collected_at": "2026-11-25T04:43:27.179296+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/dune-imperium/",
+      "html_file": "html/dune-imperium.html",
+      "sha256": "e1666ade0605b24445ba245c58eaea86caffb13f7203063e25d1c49602c611d3",
+      "collected_at": "2026-11-25T04:43:28.373595+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Eclipse-New-Dawn-for-the-Galaxy/",
+      "html_file": "html/Eclipse-New-Dawn-for-the-Galaxy.html",
+      "sha256": "d4530e186719677c1ba11f95c33f63fe1ddca72e9061a1a25ca40bc963aedb98",
+      "collected_at": "2026-11-25T04:43:31.664434+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/starcraft-the-board-game/",
+      "html_file": "html/starcraft-the-board-game.html",
+      "sha256": "753fdfd9422e5fb90a8f621954161e5527df8eed6f488879a91323a661252a09",
+      "collected_at": "2026-11-25T04:43:35.357595+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/galactic-cruise/",
+      "html_file": "html/galactic-cruise.html",
+      "sha256": "681be32b6030cceb2266da789016c932fcc7b86dd2fc3e220a84acd639c4c1da",
+      "collected_at": "2026-11-25T04:43:38.552736+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/underwater-cities/",
+      "html_file": "html/underwater-cities.html",
+      "sha256": "b0920442daab3d8f60f46da48a57d38cd40efa34db04ffed6fa89c26e3c7918e",
+      "collected_at": "2026-11-25T04:43:41.583055+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/voidfall/",
+      "html_file": "html/voidfall.html",
+      "sha256": "0269c3d5a2befe0ebf681e797aa11fcc2a0ea2e59a633d9420f731816ed83f5e",
+      "collected_at": "2026-11-25T04:43:44.265492+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/High-Frontier-4-All/",
+      "html_file": "html/High-Frontier-4-All.html",
+      "sha256": "bc932a605b23ed0b00ea16fe919f1df2ed053b6b09fd82ff28a848fa33e584ef",
+      "collected_at": "2026-11-25T04:43:47.051313+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/xia/",
+      "html_file": "html/xia.html",
+      "sha256": "2c8a557706af748f37e831243c90214396fc9023c94edb457468d78af158c440",
+      "collected_at": "2026-11-25T04:43:49.976434+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/iss-vanguard/",
+      "html_file": "html/iss-vanguard.html",
+      "sha256": "6e809669de075c56e2c374cdb99d9d1a9b5a19a2e75f1b823308e0a2f4bb3e70",
+      "collected_at": "2026-11-25T04:43:52.831031+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/civolution/",
+      "html_file": "html/civolution.html",
+      "sha256": "671b009dbd76ab6f54b80d7cdecbb2323515a210eeb034fb5a3efde2120babd0",
+      "collected_at": "2026-11-25T04:43:55.806901+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/star-wars-outer-rim/",
+      "html_file": "html/star-wars-outer-rim.html",
+      "sha256": "22dcae0342fbbc8e6ed9cc402fbe894656d5f6d8a4e5d1e407f3f66655322c89",
+      "collected_at": "2026-11-25T04:43:59.184578+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/beyond-the-sun/",
+      "html_file": "html/beyond-the-sun.html",
+      "sha256": "8eb4e3fa7834402b62f85db8e17b3a30c86b8f402b4871485bd5b594f06a6c4e",
+      "collected_at": "2026-11-25T04:44:01.916950+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/dune/",
+      "html_file": "html/dune.html",
+      "sha256": "f5a063c9ce7f9dbc157a8416b6c17ff25c6a891b899e91807d0bbe9725cc7e12",
+      "collected_at": "2026-11-25T04:44:04.815773+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/shackleton-base-a-journey-to-the-moon/",
+      "html_file": "html/shackleton-base-a-journey-to-the-moon.html",
+      "sha256": "c0f2b6a1fe091514265a6346b0d6e042a02e74e33aec15f6e62e9a90171d2a9a",
+      "collected_at": "2026-11-25T04:44:07.579337+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/arcs/",
+      "html_file": "html/arcs.html",
+      "sha256": "00418cf2c1d0ddd94c660c2ac787a4eca8b9f783e7f82cb0ac3fdd250650ba07",
+      "collected_at": "2026-11-25T04:44:10.278386+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/federation/",
+      "html_file": "html/federation.html",
+      "sha256": "400515ced8b0271de5001c332efc9e808aa7b1d3807576ce795edbc6f3bc1f42",
+      "collected_at": "2026-11-25T04:44:12.917692+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/circadians-chaos-order/",
+      "html_file": "html/circadians-chaos-order.html",
+      "sha256": "90069eb364c7d26e37202c240b75afdeef248edd414f7122fc1950257552aacb",
+      "collected_at": "2026-11-25T04:44:15.549521+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/terraforming-mars/",
+      "html_file": "html/terraforming-mars.html",
+      "sha256": "06929a326a4d7bbada7c63049fd9d4075bdbc9bca8ba1ee631c9e3b77dc1bccf",
+      "collected_at": "2026-11-25T04:44:16.736127+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/john-company-second-edition/",
+      "html_file": "html/john-company-second-edition.html",
+      "sha256": "2621ae3612eb47040859fb9598772807bb01ff5677ab91d40be98679c28ab04f",
+      "collected_at": "2026-11-25T04:44:19.611125+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/spirit-island/",
+      "html_file": "html/spirit-island.html",
+      "sha256": "81b93b13d70eef265125fbadbf2a8d3e3852b7f5407fce1a058ba60777b5be26",
+      "collected_at": "2026-11-25T04:44:23.068332+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/ark-nova/",
+      "html_file": "html/ark-nova.html",
+      "sha256": "06bfb869ead7d4becd67cd51c7ba3a33657618f0106137a62cb736a0e1ca7ce6",
+      "collected_at": "2026-11-25T04:44:26.483446+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Agricola-revised-edition/",
+      "html_file": "html/Agricola-revised-edition.html",
+      "sha256": "c5bd319bc45882ef0c81a611c46b4854503ca7835256e489ce56c569808f547b",
+      "collected_at": "2026-11-25T04:44:29.630019+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/weather-machine/",
+      "html_file": "html/weather-machine.html",
+      "sha256": "49048d690f7cccf0876841142a53dfb36038d445236be0d28e570e00e3a4fa09",
+      "collected_at": "2026-11-25T04:44:32.272151+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/battlelore-second-edition/",
+      "html_file": "html/battlelore-second-edition.html",
+      "sha256": "1840daf6493a51c0dec0c4ba45a5b29ce512d3c7f1a487b01134b75d52c79237",
+      "collected_at": "2026-11-25T04:44:35.325489+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/spirit-of-the-wild/",
+      "html_file": "html/spirit-of-the-wild.html",
+      "sha256": "b3b67bf0267000947fcf1162f59c87669af350d7cf6a6a90caf37f2e252d327e",
+      "collected_at": "2026-11-25T04:44:37.909360+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Unmatched-Battle-of-Legends-Volume-1/",
+      "html_file": "html/Unmatched-Battle-of-Legends-Volume-1.html",
+      "sha256": "c9e393a998a893d88df6c921926c94dc51c7c9e72e31655338c0ee9d8c787a5c",
+      "collected_at": "2026-11-25T04:44:40.969930+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/cascadia/",
+      "html_file": "html/cascadia.html",
+      "sha256": "7576d1cf54b150216d07186240f10cb20fa36f9808bb93950173145ab3b019d6",
+      "collected_at": "2026-11-25T04:44:43.919738+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/meadow/",
+      "html_file": "html/meadow.html",
+      "sha256": "edbf1a57c8a30659e90dd693dd9e097ce76d28b0b8a2feb0407e4f29144acf3e",
+      "collected_at": "2026-11-25T04:44:46.665711+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/tweeeet/",
+      "html_file": "html/tweeeet.html",
+      "sha256": "05e814b958b7ebebd628574d442140553a59412c790c9b6ca0874e91eb489f3b",
+      "collected_at": "2026-11-25T06:59:02.096944+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/paleo/",
+      "html_file": "html/paleo.html",
+      "sha256": "95cc26643eaa05fa4bffa1200d7a4b13ffcb30960d2ce072e39132eedf0ae648",
+      "collected_at": "2026-11-25T04:44:51.981361+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/dominant-species-marine/",
+      "html_file": "html/dominant-species-marine.html",
+      "sha256": "3d39514b2b3e143c81f846d9cef7bd3d78a69378fb2b93bcf9deaf61e3233d45",
+      "collected_at": "2026-11-25T04:44:54.819148+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/fury-of-dracula-3/",
+      "html_file": "html/fury-of-dracula-3.html",
+      "sha256": "a2ae70edb3e18c78aabc89e62c96dddfa293e37a10276bf896ff3b6e71e13c05",
+      "collected_at": "2026-11-25T04:44:57.979954+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/doggerland/",
+      "html_file": "html/doggerland.html",
+      "sha256": "a2470b080b3e574dfdd2d5790e2137b8c48dcd263e21560d2d3b4ac9f7a167d7",
+      "collected_at": "2026-11-25T04:45:00.582818+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/deal-with-the-devil/",
+      "html_file": "html/deal-with-the-devil.html",
+      "sha256": "9fb2eb548dafafcd693115b1ee7b4e72319154440c36986b6a776d57c5447f1b",
+      "collected_at": "2026-11-25T04:45:05.902554+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/wonder-book/",
+      "html_file": "html/wonder-book.html",
+      "sha256": "6711dc9dd779bd7e8af3769e6a5d747ac51ef5b8c08f1251e1a0d444f5d0b055",
+      "collected_at": "2026-11-25T04:45:08.421714+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/forest-shuffle/",
+      "html_file": "html/forest-shuffle.html",
+      "sha256": "38b9d857e9583c283d81b97f154b8e841d9965f2791343f892997c52a4462e87",
+      "collected_at": "2026-11-25T04:45:11.307957+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/the-animals-of-baker-street/",
+      "html_file": "html/the-animals-of-baker-street.html",
+      "sha256": "b2f857070690d6b67af189530a9297343044fd5bdd58d187c62830f6e8f687a3",
+      "collected_at": "2026-11-25T04:52:48.340494+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Mansions-of-Madness/",
+      "html_file": "html/Mansions-of-Madness.html",
+      "sha256": "b33c4a89832b37261595c43d100b668375c6c96d67ffbeb015c794fcc99ff5ab",
+      "collected_at": "2026-11-25T04:45:14.398467+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/detective-mcb/",
+      "html_file": "html/detective-mcb.html",
+      "sha256": "911e1f1f454149fb541534941e55f0693bacc4c1c3f442b2358dce52aea40cf7",
+      "collected_at": "2026-11-25T04:45:17.403387+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Cthulhu-Wars/",
+      "html_file": "html/Cthulhu-Wars.html",
+      "sha256": "83baf44d29d1304d2d8168fdfbcf9d4204bc1dc6af3dca3fec695cf5b238c223",
+      "collected_at": "2026-11-25T04:45:20.931623+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/mortum-ubeghishe/",
+      "html_file": "html/mortum-ubeghishe.html",
+      "sha256": "28edc130bff25e8e065067ebc59cad15676a2c42f8e494afebf429856d2f7daa",
+      "collected_at": "2026-11-25T04:45:23.949675+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/quietbell/",
+      "html_file": "html/quietbell.html",
+      "sha256": "59b6f46731d83e7d77b9868fb26be4d1e5302166ba3e38c8969f39e420c28ded",
+      "collected_at": "2026-11-25T04:45:26.593499+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/arkham-horror-third-edition/",
+      "html_file": "html/arkham-horror-third-edition.html",
+      "sha256": "fd56fc50cc2d9b2d7c2e8ebccfcdf07b6738f4f41ecdb0a87d11f1efa218e50e",
+      "collected_at": "2026-11-25T04:45:29.718258+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Tragedy-Looper/",
+      "html_file": "html/Tragedy-Looper.html",
+      "sha256": "c1ef1ce99cc39cf0737d4d19f5dddde46d00713c7488bf876d0cd6c33a2097a5",
+      "collected_at": "2026-11-25T04:45:32.678592+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/merchants-and-marauders/",
+      "html_file": "html/merchants-and-marauders.html",
+      "sha256": "24ad6ac09485f1ae978abddb7bdc7da18bc8493d3616294462416d8a595d8ce1",
+      "collected_at": "2026-11-25T04:45:35.602134+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/nightmare-horror-adventures-welcome-to-crafton-mansion/",
+      "html_file": "html/nightmare-horror-adventures-welcome-to-crafton-mansion.html",
+      "sha256": "df6889c01cd0e3dcc32441dccb41523dfa99991f93eb498874b5de1bceeb594e",
+      "collected_at": "2026-11-25T04:45:38.264933+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/wtrgate/",
+      "html_file": "html/wtrgate.html",
+      "sha256": "9308ef2208976915fbaa42aef72adeaf6e95debcc0bbd61bdae478ef8a4fe5b8",
+      "collected_at": "2026-11-25T04:45:41.315630+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/pagan-fate-of-roanoke/",
+      "html_file": "html/pagan-fate-of-roanoke.html",
+      "sha256": "2d319d6a0af49502daef0d25206804b2f801bf780f6d6650367c725e315e2427",
+      "collected_at": "2026-11-25T04:45:43.938745+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/DeathMayDie/",
+      "html_file": "html/DeathMayDie.html",
+      "sha256": "f37b17fa745826da075db33c31a54439244abca7aaead08796b69067ce96b1e7",
+      "collected_at": "2026-11-25T04:45:46.919596+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/merv-the-heart-of-the-silk-road/",
+      "html_file": "html/merv-the-heart-of-the-silk-road.html",
+      "sha256": "e28aac8165fef95c4150126a87701379262ba24f205ce1c55f6380b40b07def0",
+      "collected_at": "2026-11-25T04:45:49.604310+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/dead-of-winter-a-crossroads-game/",
+      "html_file": "html/dead-of-winter-a-crossroads-game.html",
+      "sha256": "46e455e30b385ea422971db61b4a1240f4ced769221b4175ff3ac3a23f50660e",
+      "collected_at": "2026-11-25T04:45:53.081722+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/project-elite-2020/",
+      "html_file": "html/project-elite-2020.html",
+      "sha256": "e18ad69a87cf59edd40125f4350eddf9e3de29a56c871bafda6622a67512d384",
+      "collected_at": "2026-11-25T04:45:55.845653+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/war-of-the-ring-the-card-game/",
+      "html_file": "html/war-of-the-ring-the-card-game.html",
+      "sha256": "2da706cd5ae672aff83e8c20a03200de4f022a0af151928fdb6c0fba6df141d9",
+      "collected_at": "2026-11-25T04:45:58.787426+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/space-hulk-fourth-edition/",
+      "html_file": "html/space-hulk-fourth-edition.html",
+      "sha256": "f2802e61f4d4bbcb4eb4d8add595f78a2aef99e500c667e5f6354f25830220e9",
+      "collected_at": "2026-11-25T04:46:01.401379+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/fury-of-dracula/",
+      "html_file": "html/fury-of-dracula.html",
+      "sha256": "ee38fdb19e8b30b0601dc4ba313f01c96478dc3a748a0f81d94e2e6f31e9059f",
+      "collected_at": "2026-11-25T04:46:04.939994+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/terrorscape/",
+      "html_file": "html/terrorscape.html",
+      "sha256": "07b455d2ebbe7674bc17391b1c01dcba8eae350d58c928441f160e541a4951f6",
+      "collected_at": "2026-11-25T04:46:07.675503+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/TheInitiative/",
+      "html_file": "html/TheInitiative.html",
+      "sha256": "1204cac97e957edf9ea8b23d582af85698691451d6e44ed3f8af35a0d461e011",
+      "collected_at": "2026-11-25T04:46:13.352827+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/the-name-of-the-rose/",
+      "html_file": "html/the-name-of-the-rose.html",
+      "sha256": "3c68c4dc573fe5b2d22036c9fde27ab01ad1cf8f4508141225a0a057594d5954",
+      "collected_at": "2026-11-25T04:46:15.943204+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/warhammer-underworlds-direchasm/",
+      "html_file": "html/warhammer-underworlds-direchasm.html",
+      "sha256": "1e06283d987179d9be23740cfb71a6d1d03165151d0ab8edda1a7b189e423d94",
+      "collected_at": "2026-11-25T04:46:18.435139+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/detective-city-of-angels/",
+      "html_file": "html/detective-city-of-angels.html",
+      "sha256": "e4e10c46e10064d1d271d24d7c9aba1350f422c79de9c2260ad2a1eae76d1ebf",
+      "collected_at": "2026-11-25T04:46:23.607979+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Doomtown-Reloaded/",
+      "html_file": "html/Doomtown-Reloaded.html",
+      "sha256": "5202e17d16d1a1635edaaf5054e240d78f1b0f50226d8c3f24dbccc045cffd4e",
+      "collected_at": "2026-11-25T04:46:26.341678+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/vast-mysterious-manor/",
+      "html_file": "html/vast-mysterious-manor.html",
+      "sha256": "43daabd177c72f392326d1957d1998edf79c0771bc9fe064257e5259284f7b3c",
+      "collected_at": "2026-11-25T04:46:28.928990+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Betrayal-at-House-on-the-Hill/",
+      "html_file": "html/Betrayal-at-House-on-the-Hill.html",
+      "sha256": "aeb13ee407e1516f98f5e7415654c6d205d2702c2a1a366078566808ad1561e3",
+      "collected_at": "2026-11-25T04:46:31.581068+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/spacehulk-third-edition/",
+      "html_file": "html/spacehulk-third-edition.html",
+      "sha256": "64c9ad142edce08fdc191334b1680e1803df2407074087f0b28f7f2c4e1cb718",
+      "collected_at": "2026-11-25T04:46:36.906879+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/the-loop/",
+      "html_file": "html/the-loop.html",
+      "sha256": "dabf45727f59884f4057ecf28f574535541757f88a61bdaac4a2a0e59e6e7d08",
+      "collected_at": "2026-11-25T04:52:51.142049+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/beast/",
+      "html_file": "html/beast.html",
+      "sha256": "5312f49800b0d910ee5182729a21f47ac2161de36c4bc2b7f6a48d1bf89cd239",
+      "collected_at": "2026-11-25T04:52:54.271593+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/lovecraft-letter/",
+      "html_file": "html/lovecraft-letter.html",
+      "sha256": "0b97703fefade768e3d570c2202ebf898e72e4a0f27d9b3587dbe5b5ddc14c07",
+      "collected_at": "2026-11-25T04:52:56.959872+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/gloomhaven/",
+      "html_file": "html/gloomhaven.html",
+      "sha256": "719627fd9956e88502ef79ae9876dcf399bda63701ddce4db11f8c473e8c4469",
+      "collected_at": "2026-11-25T04:46:40.480181+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/tainted-grail-the-fall-of-avalon/",
+      "html_file": "html/tainted-grail-the-fall-of-avalon.html",
+      "sha256": "242fad8e88ed73e605250f05031141c5fbf657f65eddd5bf200afc125daf65db",
+      "collected_at": "2026-11-25T04:46:44.116403+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/monster/",
+      "html_file": "html/monster.html",
+      "sha256": "1153e5e0fd953299a98cc78e2bc1edfe05e6e98cf0b996e94165c0be57020a95",
+      "collected_at": "2026-11-25T04:46:47.240182+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Mansions-of-Madness-Second-Edition/",
+      "html_file": "html/Mansions-of-Madness-Second-Edition.html",
+      "sha256": "ac3a3f05444a584cb707d97efe063d75d3562396ddb27ab9e2fca9940e467433",
+      "collected_at": "2026-11-25T04:46:50.911299+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/slay-the-spire-the-board-game/",
+      "html_file": "html/slay-the-spire-the-board-game.html",
+      "sha256": "45360ba23baf8ff40477f66c3123a46c274da149519060025a3b3e20b9b06cbb",
+      "collected_at": "2026-11-25T04:46:53.534339+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/podlodka-nastolnaya-igra/",
+      "html_file": "html/podlodka-nastolnaya-igra.html",
+      "sha256": "26328416b43a5811467493cdcf654833e64d639631959c865e083d3aee3b4b43",
+      "collected_at": "2026-11-25T04:46:56.232782+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/roll-player-adventures/",
+      "html_file": "html/roll-player-adventures.html",
+      "sha256": "0af53b92fa3d28e45da952b400b3264346a7ffb8ccb342b4130362a9a506f09c",
+      "collected_at": "2026-11-25T04:46:59.101173+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/la-granja-deluxe-master-set/",
+      "html_file": "html/la-granja-deluxe-master-set.html",
+      "sha256": "0424454dcb4dfa4aa88d0f99ee0e07dc4d9ac951b006f6314b188bfb1e9acefe",
+      "collected_at": "2026-11-25T04:47:01.793149+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/city-of-the-great-machine/",
+      "html_file": "html/city-of-the-great-machine.html",
+      "sha256": "752fa63b691106f1d840e42eeba68f60cdee2152e973806fc23b0c6a1483f732",
+      "collected_at": "2026-11-25T04:47:04.603552+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/cloudspire/",
+      "html_file": "html/cloudspire.html",
+      "sha256": "e6d48644b196a6862463128c9161d5a83d7ed6c544004e05aefaaf42017974b3",
+      "collected_at": "2026-11-25T04:47:07.501890+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/unstoppable/",
+      "html_file": "html/unstoppable.html",
+      "sha256": "defe26c2a662516bab825695aa0aa947e166cbaec0d65852e46c55c7416045f9",
+      "collected_at": "2026-11-25T04:47:10.139111+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/paxemancipation/",
+      "html_file": "html/paxemancipation.html",
+      "sha256": "8003b92e3c41b7eeee8ffd9029eaa6388692b84b3b0fb331294b17ddb7a9c297",
+      "collected_at": "2026-11-25T04:47:12.952771+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/ghost-stories/",
+      "html_file": "html/ghost-stories.html",
+      "sha256": "b8683f3bd1d1fb8d37d836423ca971e55346089a3cde5266783b80cae7f7f530",
+      "collected_at": "2026-11-25T04:47:16.222703+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Return-to-Dark-Tower/",
+      "html_file": "html/Return-to-Dark-Tower.html",
+      "sha256": "3757321058491cd9cad5a9e0d06f862b631685579446f4344aa61c89008f68ae",
+      "collected_at": "2026-11-25T04:47:18.839841+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Sword-and-Sorcery/",
+      "html_file": "html/Sword-and-Sorcery.html",
+      "sha256": "90c6205de6a4267c2f4913a96c3569680890d355519c64fe8fa4dc3f9908c0b0",
+      "collected_at": "2026-11-25T04:47:21.905538+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/frostpunk-the-board-game/",
+      "html_file": "html/frostpunk-the-board-game.html",
+      "sha256": "d5965a8c2c8f35b38eeb7e25b45747dbb6c0fe16889bfbaa3755a7f86bb3d9b5",
+      "collected_at": "2026-11-25T04:47:24.794109+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/rainbow-six-siege/",
+      "html_file": "html/rainbow-six-siege.html",
+      "sha256": "7dd0bc6232ab0dabb072c7a29124f35e6766b0bc0862090199edfa88bc8c24af",
+      "collected_at": "2026-11-25T04:47:27.421664+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Gears-of-War/",
+      "html_file": "html/Gears-of-War.html",
+      "sha256": "2d9cb1809afc82863d5ee8c800a501f9ab964731dcfb2f3a53cd6b5caf749fd0",
+      "collected_at": "2026-11-25T04:47:30.231778+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Ascension-Tactics/",
+      "html_file": "html/Ascension-Tactics.html",
+      "sha256": "566da7cd5a79a9ec37371642b4950fcfa6a6f43d3593168ad6f3691a111dfe7c",
+      "collected_at": "2026-11-25T04:47:33.028408+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/aeons-end/",
+      "html_file": "html/aeons-end.html",
+      "sha256": "f3ebe7f97bb769f1c3c18c303ad64dcd09eb5cbcdf5e1eae130bd946af1c4be4",
+      "collected_at": "2026-11-25T04:47:36.000345+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/karkasson-korolevskii-podarok/",
+      "html_file": "html/karkasson-korolevskii-podarok.html",
+      "sha256": "8956f6693110117d1460b385a490afa16ada7b9a7508505a5a9264860997d5a8",
+      "collected_at": "2026-11-25T04:47:39.169551+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/The-Isle-of-Cats/",
+      "html_file": "html/The-Isle-of-Cats.html",
+      "sha256": "f73d073a414ed722fc2772079d82ae0fb5adb6f254db76a7c191215c6794956d",
+      "collected_at": "2026-11-25T04:47:42.387877+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/azul-master-chocolatier/",
+      "html_file": "html/azul-master-chocolatier.html",
+      "sha256": "5f277fad0a417b24e062b94f21eead9f33916f26f3c3d607cdbca5bcfae44abf",
+      "collected_at": "2026-11-25T04:47:45.435386+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/azul-summer-pavilion/",
+      "html_file": "html/azul-summer-pavilion.html",
+      "sha256": "017af908bde3f2e90c7e0d4a91f7624a0e374ae0339d6fa5e0e5f177566d2c40",
+      "collected_at": "2026-11-25T04:47:48.095795+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/tzaar/",
+      "html_file": "html/tzaar.html",
+      "sha256": "18218c39b50e77881647dc58cc4a83403d1202fc17deabfdaab26d24867ff1e8",
+      "collected_at": "2026-11-25T04:47:50.808858+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/dominion/",
+      "html_file": "html/dominion.html",
+      "sha256": "bb57e46a80ff556d5a79f6414558289fbc2f8065f300b9178168a469ca3dcf28",
+      "collected_at": "2026-11-25T04:47:54.396952+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/klask/",
+      "html_file": "html/klask.html",
+      "sha256": "6adc172f92889cab444f8b0a2797ff57faf72599fbcfada304a1b1bdc9752eca",
+      "collected_at": "2026-11-25T04:47:57.217013+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/santorini/",
+      "html_file": "html/santorini.html",
+      "sha256": "c07b0e579ae72cc33c64cfd760d6c8e2e87ef5d65d31f6d83b58ed979c9bb9a0",
+      "collected_at": "2026-11-25T04:48:00.677577+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/ticket-to-ride-maerklin/",
+      "html_file": "html/ticket-to-ride-maerklin.html",
+      "sha256": "2a5b32617283590c847b04c11acc0adea95d0a6d408ff181b025e68e1cf5ba42",
+      "collected_at": "2026-11-25T04:48:03.531026+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/patchwork/",
+      "html_file": "html/patchwork.html",
+      "sha256": "bbd0c88823fd0e550361ed48d0acdbeba03641a8e0414fd22f25b29bc62388d6",
+      "collected_at": "2026-11-25T04:48:06.915858+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/azul-stained-glass-of-sintra/",
+      "html_file": "html/azul-stained-glass-of-sintra.html",
+      "sha256": "056db153da1678a90dc22c85fe41d64d843b0457079a568c662cb692ec4abc1b",
+      "collected_at": "2026-11-25T04:48:09.783790+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/azul-mini/",
+      "html_file": "html/azul-mini.html",
+      "sha256": "db2529c00e3c832cbb8b59b23fe14ed4a7c0737110b959596f9d342e700f512a",
+      "collected_at": "2026-11-25T04:48:12.411463+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/stuffed-fables/",
+      "html_file": "html/stuffed-fables.html",
+      "sha256": "0aa1672915b5f6c52f0a49cb8213e0eca1e646497a8ced5be9e2b9a9e3365ac6",
+      "collected_at": "2026-11-25T04:48:15.276810+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/small-world-underground/",
+      "html_file": "html/small-world-underground.html",
+      "sha256": "2a39ba811fe3b95e3b003da3e3f87ae104d72426a720ad04e740c17cc446bbc0",
+      "collected_at": "2026-11-25T04:48:18.279645+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/oltree/",
+      "html_file": "html/oltree.html",
+      "sha256": "49e2039b12cef6fb3da690e68ec4e7bee700268b97e1f032b0140276cdc2bf6e",
+      "collected_at": "2026-11-25T04:48:21.044784+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/chess/",
+      "html_file": "html/chess.html",
+      "sha256": "f5c3b12d9ebf39f41ec9432abe32aa4187eec010593a61ad108d3bc7c2018a13",
+      "collected_at": "2026-11-25T04:48:23.847174+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/galaxy-trucker-anniversary-edition/",
+      "html_file": "html/galaxy-trucker-anniversary-edition.html",
+      "sha256": "d07611cda3866388088d0c52c4365a9b9e2380ff63546093bd223ce12d3a5918",
+      "collected_at": "2026-11-25T04:48:26.467097+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/suburbia/",
+      "html_file": "html/suburbia.html",
+      "sha256": "67b0cd2ec4cc414f07ac1fddbafdb3185ba8176b57f29bdcff2c384f0dacc825",
+      "collected_at": "2026-11-25T04:48:29.392603+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Tokaido-Collectors-Edition/",
+      "html_file": "html/Tokaido-Collectors-Edition.html",
+      "sha256": "2cacff20247be68fa4942edf6adea727947b1a241d6d025f064b8ad98039c898",
+      "collected_at": "2026-11-25T04:48:31.999084+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/1galaxy-trucker/",
+      "html_file": "html/1galaxy-trucker.html",
+      "sha256": "9a03d844849d85e2879af8e370323c126ddc0a1f951ad8c28064d6c7cf77d4c8",
+      "collected_at": "2026-11-25T04:48:34.668281+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/luxor/",
+      "html_file": "html/luxor.html",
+      "sha256": "e702e8f488022cf000210790e8d2f3524957413f2147584dbdd526c3e375831c",
+      "collected_at": "2026-11-25T04:48:37.163549+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Sails-of-Glory/",
+      "html_file": "html/Sails-of-Glory.html",
+      "sha256": "2870e50365cf5fb35c6b325be91369836b56e3a493a1351672b712677c9c90c0",
+      "collected_at": "2026-11-25T04:48:39.706512+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Takenoko/",
+      "html_file": "html/Takenoko.html",
+      "sha256": "083cee3ae01d74945f89b0672873b6bf5d80c93a7bb1d912dfc97d400a5bc6fd",
+      "collected_at": "2026-11-25T04:48:42.874583+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Skyrise/",
+      "html_file": "html/Skyrise.html",
+      "sha256": "ce02d1c3dfd691f34df9f01476f085f0710768cad937921bf0c41b8cc705628c",
+      "collected_at": "2026-11-25T04:48:45.467444+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/imperial-settlers/",
+      "html_file": "html/imperial-settlers.html",
+      "sha256": "3e9741fadb761891dfd170cc1df4d51beb6bed278dcab272fc724ea9685d1220",
+      "collected_at": "2026-11-25T04:48:48.656669+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Star-Wars-Rebellion/",
+      "html_file": "html/Star-Wars-Rebellion.html",
+      "sha256": "a93de88ea0337576316891ab09dad7cd3842136487cbd0cd0ceaaab78f9a92d8",
+      "collected_at": "2026-11-25T04:48:52.244542+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/War-of-the-Ring-Second-Edition/",
+      "html_file": "html/War-of-the-Ring-Second-Edition.html",
+      "sha256": "9a270bb90722825e0544a7dfd4219caf275997e91363d231a2f64e2cf0693610",
+      "collected_at": "2026-11-25T04:48:55.479378+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/brass-birmingham/",
+      "html_file": "html/brass-birmingham.html",
+      "sha256": "ace1539d80b5f0a265d170f8d30844a44600ae4ec8f4225757a9523da7b80b61",
+      "collected_at": "2026-11-25T04:48:59.176780+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/through-ages-new-story-civilization/",
+      "html_file": "html/through-ages-new-story-civilization.html",
+      "sha256": "840fdbe97b312e5f76daa9047c8eb6e469fa246b75aee1095c1f03e442265b56",
+      "collected_at": "2026-11-25T04:49:02.601642+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/pax-renaissance-second-edition/",
+      "html_file": "html/pax-renaissance-second-edition.html",
+      "sha256": "7c632d7468fe13b3b363b398f27d3721225e7328c2a76936780ab8e17652eb6c",
+      "collected_at": "2026-11-25T04:49:05.451747+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/dune-imperium-uprising/",
+      "html_file": "html/dune-imperium-uprising.html",
+      "sha256": "905bdbdea962e6064c59b7d82249a41865f033b108da5dec413a2cab8b21fdb0",
+      "collected_at": "2026-11-25T04:49:08.285279+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/great-western-trail-new-zealand/",
+      "html_file": "html/great-western-trail-new-zealand.html",
+      "sha256": "2fee6d62f394f57f08cae1dbc11996fbe8a3359adbe00a08187bc6dc65ca401d",
+      "collected_at": "2026-11-25T04:49:10.802480+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/brass-lancashire/",
+      "html_file": "html/brass-lancashire.html",
+      "sha256": "21939358d567f6d30cca757a5d8b3bd400ac77971167ecf764f537185eb15518",
+      "collected_at": "2026-11-25T04:49:13.820844+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/hegemony-lead-your-class-to-victory/",
+      "html_file": "html/hegemony-lead-your-class-to-victory.html",
+      "sha256": "295a070ff8bf3c7ee0d0218b64c036377716de10c97e1b5a938481eb48cdc312",
+      "collected_at": "2026-11-25T04:49:16.825634+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/age-of-innovation/",
+      "html_file": "html/age-of-innovation.html",
+      "sha256": "bea762f5d1ce1a9704efcf5046f705863d3d37d9857f67531cd5b561a69e8e7b",
+      "collected_at": "2026-11-25T04:49:19.598699+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/pax-pamir-second-edition/",
+      "html_file": "html/pax-pamir-second-edition.html",
+      "sha256": "2a5c8a1f89ee858e07576ee89fc5b5f71809b10f0483bc193128f4cb4aaa1bd8",
+      "collected_at": "2026-11-25T04:49:22.650178+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/europa-universalis-the-price-of-power/",
+      "html_file": "html/europa-universalis-the-price-of-power.html",
+      "sha256": "99df677374f44e8ca59330e9e0772a03caa4568a2e72fd0b5c261b3c400d7ece",
+      "collected_at": "2026-11-25T04:49:25.509943+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/imperial-struggle/",
+      "html_file": "html/imperial-struggle.html",
+      "sha256": "bd2cae43629a15e94f1460f180c9a52d89d22b5f3ae2615bbe4d1a320db86ad9",
+      "collected_at": "2026-11-25T04:49:28.546913+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/barrage/",
+      "html_file": "html/barrage.html",
+      "sha256": "6dae3acf9fcab5d9415631a734c3c430fd094b30c485258e1d074dce1c1a4acd",
+      "collected_at": "2026-11-25T04:49:31.689524+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/lisboa/",
+      "html_file": "html/lisboa.html",
+      "sha256": "b26a6a87ddf6a5d84bcaf891cb93caa888270b75c85b61b3c0f0e5db103a1079",
+      "collected_at": "2026-11-25T04:49:34.601089+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/kanbanev/",
+      "html_file": "html/kanbanev.html",
+      "sha256": "92cf1d9c5fafcf3463e0548b210e23bd60932a7a586b6c5a1c947333b08e06c7",
+      "collected_at": "2026-11-25T04:49:37.404381+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/great-western-trail/",
+      "html_file": "html/great-western-trail.html",
+      "sha256": "fed6af084dd618b3abf90707f91de742e3fcbf3e941cb4e8ca88d251c32d7aea",
+      "collected_at": "2026-11-25T04:49:40.669871+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/clash-of-cultures-monumental-edition/",
+      "html_file": "html/clash-of-cultures-monumental-edition.html",
+      "sha256": "32d6459298163a67c4b489d6de094f606b6543983ab5f1ae8ae72ca5b344c9ac",
+      "collected_at": "2026-11-25T04:49:43.907752+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/die-burgen-von-burgund/",
+      "html_file": "html/die-burgen-von-burgund.html",
+      "sha256": "ea81f9ce002421f446f7f3b4fedefbd7bea81a62cbe674dfd676bb231b07912d",
+      "collected_at": "2026-11-25T04:49:47.438046+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/trickerion-legends-of-illusion-bundle-edition/",
+      "html_file": "html/trickerion-legends-of-illusion-bundle-edition.html",
+      "sha256": "0d92fa4184f595fd8db0bb367f3b5912741fe85a81f8ba73bebe9aa8b4d42b4f",
+      "collected_at": "2026-11-25T04:49:49.984224+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Terra-Mystica/",
+      "html_file": "html/Terra-Mystica.html",
+      "sha256": "1cda0bd3f07529fbf8832bef2affc8063ac6c8c4df8d5bf9eaded29000085162",
+      "collected_at": "2026-11-25T04:49:53.120611+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/great-western-trail-second-edition/",
+      "html_file": "html/great-western-trail-second-edition.html",
+      "sha256": "8438aba7a8c98bd7765f8f37e37fba9a601743c87d0a4617c54757ddd5bb5891",
+      "collected_at": "2026-11-25T04:49:55.925216+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/darwins-journey/",
+      "html_file": "html/darwins-journey.html",
+      "sha256": "eb1aeac36c0710d2780b21bd073da65be654b8b2a83a3bd599d8b87aa9c5cdab",
+      "collected_at": "2026-11-25T04:49:58.653204+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Runewars-Revised-Edition/",
+      "html_file": "html/Runewars-Revised-Edition.html",
+      "sha256": "47ffd0d95da3fcbf8f4c1d4b5f3d16a28ddb18369898432db0ac70abd26510ee",
+      "collected_at": "2026-11-25T04:50:01.496611+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/feudum/",
+      "html_file": "html/feudum.html",
+      "sha256": "bab9d8922d2aec4c060868f3cd132fdd7b92f7984291937bb4a4340beb031ce5",
+      "collected_at": "2026-11-25T04:50:04.465916+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/the-castles-of-burgundy-2019/",
+      "html_file": "html/the-castles-of-burgundy-2019.html",
+      "sha256": "45dc595424246afa5ef29581738d4a168ef763b8a461559aee447d97fe2c0855",
+      "collected_at": "2026-11-25T04:50:07.489459+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/grand-austria-hotel/",
+      "html_file": "html/grand-austria-hotel.html",
+      "sha256": "ada567c384d1e93ed43abad2526f7a3fe0a8eaa0b20d6289f7cfcdf82efc3865",
+      "collected_at": "2026-11-25T04:50:10.930376+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/anachrony/",
+      "html_file": "html/anachrony.html",
+      "sha256": "4f45e2d492211fd35657c0243435994e2998c6f15876845d72a5e0ca9448b05f",
+      "collected_at": "2026-11-25T04:50:14.019390+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/clans-caledonia/",
+      "html_file": "html/clans-caledonia.html",
+      "sha256": "140374640bc691008d759fb5365e86a9766f2dc8af15b329a96b084a9c883d76",
+      "collected_at": "2026-11-25T04:50:17.416198+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/ticket-to-ride-legacy-legends-of-the-west/",
+      "html_file": "html/ticket-to-ride-legacy-legends-of-the-west.html",
+      "sha256": "63c6de8ac1b27767975320d11bafa714bac435e176ce9f83c64bbfaacc3aa017",
+      "collected_at": "2026-11-25T04:50:20.283663+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/scythe/",
+      "html_file": "html/scythe.html",
+      "sha256": "b65ad5e0190cdb0e6772482b1b0ffe47d4f58c53cad65756ff0afb20ae4f340e",
+      "collected_at": "2026-11-25T04:50:24.344973+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/nippon-zaibatsu/",
+      "html_file": "html/nippon-zaibatsu.html",
+      "sha256": "edc373c3fe02dee8db03333488f050429bb2074d47d8e127cb46dd477572db09",
+      "collected_at": "2026-11-25T04:50:26.975198+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/alchemists/",
+      "html_file": "html/alchemists.html",
+      "sha256": "5cd536277d7d76ef5c55d4a88c4e7fbe93bb5006629801fb8573c5ed72657a4c",
+      "collected_at": "2026-11-25T04:50:29.945817+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Mage-Knight-Board-Game/",
+      "html_file": "html/Mage-Knight-Board-Game.html",
+      "sha256": "018309c68d70ea25627925a1f0607686cf9351f2936ac256cb33b9bf38024042",
+      "collected_at": "2026-11-25T04:50:33.190147+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/great-western-trail-argentina/",
+      "html_file": "html/great-western-trail-argentina.html",
+      "sha256": "575087148351c2581e948f4ec08d4dd93c6a0c11536ef93d76311977babd0e1f",
+      "collected_at": "2026-11-25T04:50:35.927349+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/caverna-the-cave-farmers/",
+      "html_file": "html/caverna-the-cave-farmers.html",
+      "sha256": "a0261b4665276d6757cdb9a04b6a577c9ece0bcf5de7410d095e6c9870ee6f45",
+      "collected_at": "2026-11-25T04:50:39.117846+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/tzolkin-the-mayan-calendar/",
+      "html_file": "html/tzolkin-the-mayan-calendar.html",
+      "sha256": "060aba813d242f200c254fff9cd56a4eb1536f64297b855d7892bfa7c403a4cc",
+      "collected_at": "2026-11-25T04:50:42.192208+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/viticulture-essential-edition/",
+      "html_file": "html/viticulture-essential-edition.html",
+      "sha256": "4a4fe29a1bfb39f21397b8cd802f1e8d8b09ef571ac39552fd423908ce72604e",
+      "collected_at": "2026-11-25T04:50:45.637582+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/nucleum/",
+      "html_file": "html/nucleum.html",
+      "sha256": "4adeebe68c79a489f3ede17c6d0c4438d2af5f21736b171aa7a225f79e93e0b1",
+      "collected_at": "2026-11-25T04:50:48.319547+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/sid-meiers-civilization-ffg/",
+      "html_file": "html/sid-meiers-civilization-ffg.html",
+      "sha256": "716df158930d0f742d2944cad8d81c99d47e79fad116b8ec7b151a6b44eb527c",
+      "collected_at": "2026-11-25T04:50:51.454243+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Riichi-Mahjong/",
+      "html_file": "html/Riichi-Mahjong.html",
+      "sha256": "db5f3f420e1976f70b59cbd6056141cb06f08913988f7d235804a8812e01d69f",
+      "collected_at": "2026-11-25T04:50:54.211019+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Mombasa/",
+      "html_file": "html/Mombasa.html",
+      "sha256": "660865fa438d4db65ae1c88bcc8758aa0412e776407a30a209103d57db3d9b8c",
+      "collected_at": "2026-11-25T04:50:56.828002+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Rising-Sun/",
+      "html_file": "html/Rising-Sun.html",
+      "sha256": "0a255833b8b95b1eace44aff0a316f78891d774970d71b93aeb5ccda7003ceff",
+      "collected_at": "2026-11-25T04:50:59.791784+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Trismegistus-The-Ultimate-Formula/",
+      "html_file": "html/Trismegistus-The-Ultimate-Formula.html",
+      "sha256": "b5b0d3523ebca687ad4be6cb2b489ad699bff528bb4fb7fd33bbe575ea93d5a6",
+      "collected_at": "2026-11-25T04:51:02.439209+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Fief-France-1429/",
+      "html_file": "html/Fief-France-1429.html",
+      "sha256": "6618c3856869a42f8273fa32816bf988ea50f27aff77362d19725b51677f263e",
+      "collected_at": "2026-11-25T04:51:05.352851+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/a-game-of-thrones-the-board-game-second-edition/",
+      "html_file": "html/a-game-of-thrones-the-board-game-second-edition.html",
+      "sha256": "eb4dea57fe4102ff53fb1b0089e7fbd1dceec78d67d8a530ee7ca9b379f06533",
+      "collected_at": "2026-11-25T04:51:09.179427+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/triumph-and-tragedy/",
+      "html_file": "html/triumph-and-tragedy.html",
+      "sha256": "0d3e6f754dea5b8006c462003edbfefb8ce9eb68658ae5b7fdc30a9c19cf56fc",
+      "collected_at": "2026-11-25T04:51:11.756326+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/carnegie/",
+      "html_file": "html/carnegie.html",
+      "sha256": "21438a4c9fa338b7959aff853eb01515dbcda63850182bc3679c3218a29effd9",
+      "collected_at": "2026-11-25T04:51:14.504604+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/tekhenu-obelisk-of-the-sun/",
+      "html_file": "html/tekhenu-obelisk-of-the-sun.html",
+      "sha256": "6ebe85bdce20b7a77b5b01749878db2163fa6f80bbbf69359cc4e3e648ed0dd9",
+      "collected_at": "2026-11-25T04:51:17.273438+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/this-war-of-mine-the-board-game/",
+      "html_file": "html/this-war-of-mine-the-board-game.html",
+      "sha256": "4ad3ee4464b2bc9be1b028b50bd72e2deebcbb88bb1a1e821e0451659d76e348",
+      "collected_at": "2026-11-25T04:51:20.597863+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/marco-polo-ii-im-auftrag-des-khan/",
+      "html_file": "html/marco-polo-ii-im-auftrag-des-khan.html",
+      "sha256": "c2d3269d6a6a4418a81786e5941b65d2246037f0d12957a4a1406bcbb81aefba",
+      "collected_at": "2026-11-25T04:51:23.329602+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Imperium-Legends/",
+      "html_file": "html/Imperium-Legends.html",
+      "sha256": "aab9ca1b090ec92fffd26f5d02c0149b7da91c78876c7b0cd79799ed4189d1a9",
+      "collected_at": "2026-11-25T04:51:25.898369+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/unconscious-mind-deluxe-edition/",
+      "html_file": "html/unconscious-mind-deluxe-edition.html",
+      "sha256": "596b2f8699c8c926ac845fc9abaee962df92a76da969a3954026019f68feafbf",
+      "collected_at": "2026-11-25T04:51:28.309616+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/food-chain-magnate/",
+      "html_file": "html/food-chain-magnate.html",
+      "sha256": "956fe7a3ca35c90a989de5f74a28febaaf2e737b6b90c4dab4e91995a75402f8",
+      "collected_at": "2026-11-25T04:51:31.192649+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/gallerist/",
+      "html_file": "html/gallerist.html",
+      "sha256": "41a3d9daafcdfe5498313798025ed04cff4e0440ef3bd451690047175c3c34c0",
+      "collected_at": "2026-11-25T04:51:33.844956+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Descent-Journeys-in-the-Dark-Second-Edition/",
+      "html_file": "html/Descent-Journeys-in-the-Dark-Second-Edition.html",
+      "sha256": "f6a0b4e190caf1576bb216d6d4f581335ca64e08fe04816a541c460849e7d240",
+      "collected_at": "2026-11-25T04:51:37.406821+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/The-Battle-of-Five-Armies/",
+      "html_file": "html/The-Battle-of-Five-Armies.html",
+      "sha256": "51d862021f6a04138e8bb95d71a298f9ebf31c9fc73e1a31ccbc949c2f4a383e",
+      "collected_at": "2026-11-25T04:51:40.283050+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Spartacus-A-Game-of-Blood-and-Treachery/",
+      "html_file": "html/Spartacus-A-Game-of-Blood-and-Treachery.html",
+      "sha256": "8e5ff485014265ec7946e5ab32c0f4c06a1cf5331c56e3a30cb5e7e3dece4974",
+      "collected_at": "2026-11-25T04:51:45.965358+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/vinhos-deluxe-edition/",
+      "html_file": "html/vinhos-deluxe-edition.html",
+      "sha256": "26a25df0aa5c18ede0d4740ac385c93feaef9bb371cb2546129d5315d128668b",
+      "collected_at": "2026-11-25T04:51:48.616551+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/sweet-lands/",
+      "html_file": "html/sweet-lands.html",
+      "sha256": "9134bfbeeb4b700e307891fa97a5de6dc96a76ada286c309f80dc6439ca8b17b",
+      "collected_at": "2026-11-25T04:51:51.106455+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/oath-chronicles-of-empire-and-exile/",
+      "html_file": "html/oath-chronicles-of-empire-and-exile.html",
+      "sha256": "0fd87f2edff8d643ed5e46ea7012257e7cf9935d53763873e0a1fe1877eeac7e",
+      "collected_at": "2026-11-25T04:51:53.994794+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Cerebria/",
+      "html_file": "html/Cerebria.html",
+      "sha256": "6fa3c0908882576adc6e293a9403e9416c32dfddb371feadf2ba3ed021286ea5",
+      "collected_at": "2026-11-25T04:51:56.601462+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/maria/",
+      "html_file": "html/maria.html",
+      "sha256": "50960423579cb3b6197f95337e84ffe85c3f09c944299b2b0e7c7e48012c0e67",
+      "collected_at": "2026-11-25T04:51:59.585132+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/dungeon-lords/",
+      "html_file": "html/dungeon-lords.html",
+      "sha256": "13f272f334dffc3979ee48e9769af42247e55820c12841e372004b14f3e93404",
+      "collected_at": "2026-11-25T04:52:04.853800+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/ageofsteam/",
+      "html_file": "html/ageofsteam.html",
+      "sha256": "edf5e52d4a6a830ba7d1392c4584cefde9c09c43ea6e0e0afa01bef8ba4d734f",
+      "collected_at": "2026-11-25T04:52:07.492808+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/LaFamigliaTheGreatMafiaWar/",
+      "html_file": "html/LaFamigliaTheGreatMafiaWar.html",
+      "sha256": "008c32ef64f89a851723804de3febb343961308d0110788c5524ffe8e4ef8458",
+      "collected_at": "2026-11-25T04:52:10.109283+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/sekigahara-the-unification-of-japan/",
+      "html_file": "html/sekigahara-the-unification-of-japan.html",
+      "sha256": "5f56bf91860303081941374cdea1547c025933cbd666290f62cb5097d8717d16",
+      "collected_at": "2026-11-25T04:52:12.968701+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Through-the-Ages/",
+      "html_file": "html/Through-the-Ages.html",
+      "sha256": "fd6961ba689420da5c6e4d77829157eda32f1841890777419a622eb3e3a63a7a",
+      "collected_at": "2026-11-25T04:52:15.573279+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/concordia/",
+      "html_file": "html/concordia.html",
+      "sha256": "66e452b7476aa1a287faeb28cdb10bc20a261a97efa1924da545dd497525a851",
+      "collected_at": "2026-11-25T04:52:18.549959+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/bonfire/",
+      "html_file": "html/bonfire.html",
+      "sha256": "d507b3a647f2342434d5d14d9ea4bb4093ceb97fbc97a70b309f1759ed47ac44",
+      "collected_at": "2026-11-25T04:52:21.216316+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/yeiletum/",
+      "html_file": "html/yeiletum.html",
+      "sha256": "34a500be194ae2ac05a608c459fb59d6b54c0b365f53da3df6a80af745a8bbac",
+      "collected_at": "2026-11-25T04:52:23.821514+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/teotihuacan-city-of-gods/",
+      "html_file": "html/teotihuacan-city-of-gods.html",
+      "sha256": "a9a5c0dd409779f07e30425fe7d8f054e1937345693cb15f14702da6914eb81d",
+      "collected_at": "2026-11-25T04:52:26.739317+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/world-order/",
+      "html_file": "html/world-order.html",
+      "sha256": "95c2c122d809fc17fcf5580d9a76d7a005aa3df08b6fceca72eaf6c9ba919f4b",
+      "collected_at": "2026-11-25T04:52:29.507645+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/cofbsh/",
+      "html_file": "html/cofbsh.html",
+      "sha256": "3a56f7b793d6591f357c7807c0df8f2b2dd9d7b04e52b8c5d85f6076b8b9ea53",
+      "collected_at": "2026-11-25T04:52:32.039470+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/hive-carbon/",
+      "html_file": "html/hive-carbon.html",
+      "sha256": "cd80ab132618993ce2e15906c9984ba22c92d407154358966f214dca28c0e4ea",
+      "collected_at": "2026-11-25T04:52:34.651435+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/Bestiary-of-Sigillum/",
+      "html_file": "html/Bestiary-of-Sigillum.html",
+      "sha256": "ba50b9e818148bbbb51c84b819e4eaed6663f51a14e7d517d497cb6c239cdb7c",
+      "collected_at": "2026-11-25T04:52:37.439373+00:00"
+    },
+    {
+      "url": "https://tesera.ru/game/deadreckoning/",
+      "html_file": "html/deadreckoning.html",
+      "sha256": "6674f30b6c270fe36556d132ed5851f2bf9d22ee77daf0910ee2238369fd684a",
+      "collected_at": "2026-11-25T04:53:00.338574+00:00"
+    }
+  ]
+}
